@@ -1,0 +1,77 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* App Container */
+#root {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+.mt-4 {
+    margin-top: 20px;
+}
+
+.p-2 {
+    padding: 10px;
+}
+
+.p-4 {
+    padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+}
